@@ -41,10 +41,3 @@ To contribute:
 3. Make your changes and commit with clear messages.
 4. Push to your fork.
 5. Create a pull request.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For questions or suggestions, open an issue or contact us at support@chatdoc.com.
->>>>>>> origin/main
