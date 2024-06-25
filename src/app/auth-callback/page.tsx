@@ -7,7 +7,12 @@ const Page =  () => {
 
   const searchParams = useSearchParams();
   const origin = searchParams.get("origin");
-  const {data, isLoading} = trpc.authCallback.useQuery();
+  const {data, isLoading} = trpc.authCallback.useQuery(undefined);
+   if(data && data.success) {
+        //user is synced to the db
+        router.push(origin? `/${origin}`: "/dashboard");
+
+    }
 };
 
 export default Page;
