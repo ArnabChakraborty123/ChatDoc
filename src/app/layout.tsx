@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="en">
-        <body className={cn('min-h-screen font-sans antialiased',inter.className)}>
-          <Navbar />
+      <body className={cn('min-h-screen font-sans antialiased bg-gradient-to-r from-customStart to-customEnd', inter.className)}>
+      <Navbar />
           {children}
           </body>
       </html>

@@ -22,6 +22,8 @@ const config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        customStart: '#283048',
+        customEnd: '#859398',
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
